@@ -1,0 +1,1 @@
+Bob is a Web Developer with 4 years of experience. He specializes in front-end technologies like JavaScript, React, and CSS but has limited experience in back-end technologies like Python. Bob has never worked with AWS or machine learning and has little knowledge of containerization tools like Docker and Kubernetes. However, he has contributed to several collaborative projects.

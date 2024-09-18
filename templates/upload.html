@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile Matching</title>
+</head>
+<body>
+    <h1>Upload Candidate Profiles</h1>
+    <form action="/" method="post" enctype="multipart/form-data">
+        <label for="job_description">Job Description:</label><br>
+        <textarea id="job_description" name="job_description" rows="4" cols="50" required></textarea><br><br>
+        
+        <label for="file">Select profile files:</label><br>
+        <input type="file" id="file" name="file[]" multiple required><br><br>
+        
+        <input type="submit" value="Upload Profiles">
+    </form>
+</body>
+</html>

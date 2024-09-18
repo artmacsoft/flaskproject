@@ -1,0 +1,1 @@
+Charlie is a Data Scientist with 5 years of experience in Python, TensorFlow, and machine learning. He has worked with cloud platforms like Google Cloud but has limited experience with AWS. Charlie has some knowledge of REST API development and Docker but lacks experience with Kubernetes. He is an excellent problem-solver and has collaborated on several data-driven projects.

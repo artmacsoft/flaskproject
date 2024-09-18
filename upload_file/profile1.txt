@@ -1,0 +1,1 @@
+﻿I am a Python Developer with over 5 years of experience in Django. I have worked extensively with Django to build web applications and have deployed several projects on AWS, utilizing services like aws. I am proficient in cloud-based solutions and have experience working with both relational and non-relational databases.

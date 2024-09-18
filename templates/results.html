@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Results</title>
+</head>
+<body>
+    <h1>Profile Matching Results</h1>
+    <table border="1">
+        <tr>
+            <th>Profile</th>
+            <th>Similarity Score</th>
+            <th>Anomaly Score</th>
+            <th>Final Score</th>
+            <th>Is Anomalous?</th>
+            <th>Job Entities</th>
+            <th>Profile Entities</th>
+        </tr>
+        {% for result in results %}
+        <tr>
+            <td><pre>{{ result.profile }}</pre></td>
+            <td>{{ result.similarity_score * 100 | round(2) }}%</td>
+            <td>{{ result.anomaly_score | round(4) }}</td>
+            <td>{{ result.final_score | round(4) }}</td>
+            <td>{{ 'Yes' if result.is_anomalous else 'No' }}</td>
+            <td>{{ result.job_entities }}</td>
+            <td>{{ result.profile_entities }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <br>
+    <a href="/">Upload More Profiles</a>
+</body>
+</html>
